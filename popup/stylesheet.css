@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+  width: 200px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+#center {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+small {
+  position: relative;
+  left: 13px;
+  font-size: 12.5px;
+}
+
+input {
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  position: relative;
+  left: 13px;
+}
+
+#offButton {
+  padding: 5px 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  left: 75px;
+}
+
+#onButton {
+  padding: 5px 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: #2ada0b;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  left: 75px;
+}

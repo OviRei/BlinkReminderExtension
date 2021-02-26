@@ -1,0 +1,1 @@
+console.log("Blink Reminder Extension has started!");

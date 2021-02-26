@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Blink Reminder",
+  "version": "1.0",
+
+  "description": "Reminds you to blink after a period of time.",
+
+  "icons": {
+    "48": "popup/icon.png"
+  },
+
+  "background": {
+    "scripts": ["backgound.js"]
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "popup/icon.png",
+    "default_title": "Blink Reminder",
+    "default_popup": "popup/popup.html"
+  }
+}
